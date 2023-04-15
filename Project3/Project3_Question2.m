@@ -1,16 +1,10 @@
-% Affan Selim Kaya 
-% 200709006
-% Computer Engineering (Eng)
-% Introduction to Programming 
-% CEN103
-% 2020-2021 1st Somestr
-% Project 3 Question 2
-% Asst.Prof. Deniz Dal
+% Alaoefyn 
+
 
 %We are gettin upper and lower limits to find consecutive integers between entered upper and lower limit
 %When entering the upper and lower limits, the user must follow 2 rules.
 
-function [counter] = AffanSelim_Kaya_200709006_CEN103_Project3_Question2(lowerLimit, upperLimit)
+function [counter] = Project3_Question2(lowerLimit, upperLimit)
 
 %If the lower limit is not less than the upper limit(Rule1:Typed lowerLimit cannot bigger than upperLimit)
 if(lowerLimit >= upperLimit)
@@ -32,27 +26,27 @@ for i = lowerLimit : upperLimit
    lCounter = 0;
  
    %Calling both subfunctions 
-   if  AffanSelim_Kaya_200709006_CEN103_Project3_Question2_EvenOrOdd(AffanSelim_Kaya_200709006_CEN103_Project3_Question2_IndexDigit(i,1))
+   if  Project3_Question2_EvenOrOdd(Project3_Question2_IndexDigit(i,1))
        lCounter = lCounter + 1;
    end
  
-   if  AffanSelim_Kaya_200709006_CEN103_Project3_Question2_EvenOrOdd(AffanSelim_Kaya_200709006_CEN103_Project3_Question2_IndexDigit(i,2))
+   if  Project3_Question2_EvenOrOdd(Project3_Question2_IndexDigit(i,2))
        lCounter = lCounter + 1;
    end
 
-   if  AffanSelim_Kaya_200709006_CEN103_Project3_Question2_EvenOrOdd(AffanSelim_Kaya_200709006_CEN103_Project3_Question2_IndexDigit(i,3))
+   if  Project3_Question2_EvenOrOdd(Project3_Question2_IndexDigit(i,3))
        lCounter = lCounter + 1;
    end
 
-   if  AffanSelim_Kaya_200709006_CEN103_Project3_Question2_EvenOrOdd(AffanSelim_Kaya_200709006_CEN103_Project3_Question2_IndexDigit(i,4))
+   if  Project3_Question2_EvenOrOdd(Project3_Question2_IndexDigit(i,4))
        lCounter = lCounter + 1;
    end
   
-   if  AffanSelim_Kaya_200709006_CEN103_Project3_Question2_EvenOrOdd(AffanSelim_Kaya_200709006_CEN103_Project3_Question2_IndexDigit(i,5))
+   if  Project3_Question2_EvenOrOdd(Project3_Question2_IndexDigit(i,5))
        lCounter = lCounter + 1;
    end
 
-   if  AffanSelim_Kaya_200709006_CEN103_Project3_Question2_EvenOrOdd(AffanSelim_Kaya_200709006_CEN103_Project3_Question2_IndexDigit(i,6))
+   if  Project3_Question2_EvenOrOdd(Project3_Question2_IndexDigit(i,6))
        lCounter = lCounter + 1;
    end
  
