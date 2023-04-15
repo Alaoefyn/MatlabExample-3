@@ -1,35 +1,28 @@
-% Affan Selim Kaya 
-% 200709006
-% Computer Engineering (Eng)
-% Introduction to Programming
-% CEN103
-% 2020-2021 1st Somestr
-% Project 3 Question 1
-% Asst.Prof. Deniz Dal
+
 
 %First,we need type 3 numbers but according to 4 rules
-function [output] = AffanSelim_Kaya_200709006_CEN103_Project3_Question1(num1,num2,num3)
+function [output] = Project3_Question1(num1,num2,num3)
 
 %If user type a number less than 0(Rule1:We cant type any number less than 0)
-if (AffanSelim_Kaya_200709006_CEN103_Project3_Question1_Test1(num1,num2,num3))
+if (Project3_Question1_Test1(num1,num2,num3))
     output = -1;
     return 
 end
 
 %If user type a number greater than 9(Rule2:We cant type any numer bigger than 9)
-if(AffanSelim_Kaya_200709006_CEN103_Project3_Question1_Test2(num1,num2,num3))
+if(Project3_Question1_Test2(num1,num2,num3))
     output = -2;
     return 
 end
 
 %If user didnt type at least 1 even number(Rule3:We cant type all number odd number)
-if(AffanSelim_Kaya_200709006_CEN103_Project3_Question1_Test3(num1,num2,num3))
+if(Project3_Question1_Test3(num1,num2,num3))
     output = -3;
     return 
 end
 
 %If user type all numbers 0(Rule4:We cant type all numbers 0)
-if(AffanSelim_Kaya_200709006_CEN103_Project3_Question1_Test4(num1,num2,num3))
+if(Test4(num1,num2,num3))
     output = -4;
     return 
 end
